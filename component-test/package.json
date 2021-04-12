@@ -1,0 +1,21 @@
+{
+  "name": "component-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.0.1"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.3"
+  }
+}
