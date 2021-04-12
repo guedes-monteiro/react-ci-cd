@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress run --browser chrome --headless",
+    "component-test:headless": "cypress run --browser chrome --headless"
   },
   "keywords": [],
   "author": "",
