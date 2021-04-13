@@ -5,10 +5,6 @@
 /.pnp
 .pnp.js
 
-# report
-/component-test/mochawesome-report/**
-/component-test/cypress/videos/**
-
 # testing
 /coverage
 
