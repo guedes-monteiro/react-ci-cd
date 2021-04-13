@@ -42,11 +42,13 @@ jobs:
         run: npm test
       - name: Componente test
         uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
-          start: npm start
+        # with:
+        #   build: npm run build
+        #   start: npm start
         run: |
+          npm start
           cd component-test
+          npm install
           npm run component-test:headless        
         env:
           CI: true
